@@ -6,6 +6,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.secure=0 \
     ro.adb.secure=0
 endif
-
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.radio.noril=true

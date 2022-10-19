@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, vendor/xiaomi/elish/elish-vendor.mk)
+$(call inherit-product, vendor/xiaomi/enuma/enuma-vendor.mk)
 
-ELISH_PREBUILT := device/xiaomi/elish-prebuilt
+ENUMA_PREBUILT := device/xiaomi/enuma-prebuilt
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
@@ -79,7 +79,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.recovery.usb.rc \
     init.recovery.qcom.sh \
-    init.elish.rc
+    init.enuma.rc
 
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
@@ -102,11 +102,11 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    $(ELISH_PREBUILT)/kernel/dtb.img:dtb.img
+    $(ENUMA_PREBUILT)/kernel/dtb.img:dtb.img
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.elish
+    android.hardware.lights-service.enuma
 
 # Parts
 PRODUCT_PACKAGES += \
@@ -118,11 +118,11 @@ PRODUCT_PACKAGES += \
 
 # RRO Overlays
 PRODUCT_PACKAGES += \
-    FrameworkResOverlayElish \
-    WifiResOverlayElish \
-    SystemUIOverlayElish \
-    SettingsProviderOverlayElish \
-    SettingsOverlayElish
+    FrameworkResOverlayEnuma \
+    WifiResOverlayEnuma \
+    SystemUIOverlayEnuma \
+    SettingsProviderOverlayEnuma \
+    SettingsOverlayEnuma
 
 # Overlays - override vendor ones
 PRODUCT_PACKAGES += \
@@ -140,7 +140,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.elish
+    android.hardware.power-service.enuma
 
 # Properties
 include $(LOCAL_PATH)/properties/default.mk

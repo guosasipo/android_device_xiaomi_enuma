@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "SettingsOverlayElish",
-    theme: "SettingsOverlayElish",
+    name: "FrameworkResOverlayEnuma",
+    theme: "FrameworkResOverlayEnuma",
     certificate: "platform",
     sdk_version: "current",
     product_specific: true

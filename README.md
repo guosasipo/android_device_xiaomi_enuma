@@ -1,9 +1,9 @@
 Copyright (C) 2021 ArrowOS
 
-Device configuration for Xiaomi Mi Pad 5 Pro (elish)
+Device configuration for Xiaomi Pad 5 Pro (enuma)
 =========================================
 
-The Xiaomi Mi Pad 5 Pro (codenamed _"elish"_) is a tablet from Xiaomi.
+The Xiaomi Pad 5 Pro (codenamed _"enuma"_) is a tablet from Xiaomi.
 
 It was released in August 2021.
 
@@ -21,4 +21,4 @@ Display | IPS LCD, 1B colors, 120Hz, HDR10, Dolby Vision
 
 ## Device picture
 
-![Xiaomi Mi Pad 5 Pro](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1640768539.98629966.jpg "Xiaomi Mi Pad 5 Pro")
+![Xiaomi Pad 5 Pro](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1640768539.98629966.jpg "Xiaomi Pad 5 Pro")

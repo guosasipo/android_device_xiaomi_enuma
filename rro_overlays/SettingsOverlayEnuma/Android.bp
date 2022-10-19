@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "WifiResOverlayElish",
-    theme: "WifiResOverlayElish",
+    name: "SettingsOverlayEnuma",
+    theme: "SettingsOverlayEnuma",
     certificate: "platform",
     sdk_version: "current",
     product_specific: true
