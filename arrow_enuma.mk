@@ -25,3 +25,6 @@ PRODUCT_NAME := arrow_enuma
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 BUILD_FINGERPRINT := Xiaomi/enuma/enuma:11/RKQ1.200826.002/V13.0.6.0.RKZCNXM:user/release-keys
+
+# Gapps Build
+ARROW_GAPPS := true
