@@ -73,7 +73,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_CONFIG := enuma_user_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/enuma
-KERNEL_LD := LD=ld.lld
+
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
