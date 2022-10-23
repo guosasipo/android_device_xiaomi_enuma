@@ -70,9 +70,9 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
-TARGET_KERNEL_CONFIG := enuma_user_defconfig
+TARGET_KERNEL_CONFIG := elish_user_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/xiaomi/enuma
+TARGET_KERNEL_SOURCE := kernel/xiaomi/elish
 
 
 # Metadata
