@@ -43,10 +43,3 @@ ro.netflix.bsp_rev=Q855-16947-1
 # Wifi Display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
-
-#Fp
-ro.hardware.fp.sideCap=true
-ro.hardware.fp.vendor=fpc
-
-# Telephony
-ro.telephony.sim_slots.count=1
