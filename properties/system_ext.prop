@@ -22,6 +22,9 @@ bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 
 # GPS
-persist.backup.ntpServer=0.pool.ntp.org
 persist.sys.gps.fence=true
 persist.sys.gps.polaris=true
+
+# Telephony
+ro.telephony.sim_slots.count=1
+telephony.active_modems.max_count=2
